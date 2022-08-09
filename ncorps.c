@@ -42,7 +42,7 @@ obj *parseFile(FILE *f, int *nc);
 
 int main(int argc, char *argv[])
 {
-    int GFXdims[4] = {600, 600, 1, 1};
+    int GFXdims[4] = {300, 300, 2, 2};
     int GFXswitch = GRTR;
     int trace = 100; 
     float t_un = t_unit;
